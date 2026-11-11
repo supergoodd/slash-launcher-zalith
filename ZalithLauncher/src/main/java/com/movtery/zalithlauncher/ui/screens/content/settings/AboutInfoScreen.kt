@@ -124,6 +124,12 @@ fun AboutInfoScreen(
                             }
                         )
 
+                        Text(
+                            modifier = Modifier.alpha(0.7f),
+                            text = "Unofficial Modified Version — " + BuildKeys.LAUNCHER_NAME + " is based on Zalith Launcher 2 by MovTery and the Zalith Team, licensed under GPL-3.0.",
+                            style = MaterialTheme.typography.bodySmall
+                        )
+
                         ButtonIconItem(
                             icon = painterResource(R.drawable.img_avatar_movtery),
                             title = stringResource(R.string.about_launcher_author_movtery_title),
